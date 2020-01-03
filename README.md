@@ -1,4 +1,4 @@
- class UserModel {
+ " class UserModel {
   String id;
   String strCustomerProfileImageUrl = "";
   String firstName;
@@ -109,4 +109,4 @@ return map;
 //for list
    List<CategoryModel> categoryList = categories.map((c) => new CategoryModel.parseForHomeScreen(c)).toList();
 //for map 
-  SearchModelAddress search = new SearchModelAddress.fromMapForLatitudeLongitude(mGeometry);
+  SearchModelAddress search = new SearchModelAddress.fromMapForLatitudeLongitude(mGeometry);"
