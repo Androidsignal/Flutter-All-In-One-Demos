@@ -112,3 +112,7 @@
          //for map 
            SearchModelAddress search = new SearchModelAddress
                .fromMapForLatitudeLongitude(mGeometry);
+               
+               
+               //Sqlite databse
+               https://github.com/quocvn/food-sqlite-demo
